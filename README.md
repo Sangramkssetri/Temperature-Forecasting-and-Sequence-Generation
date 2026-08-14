@@ -6,7 +6,8 @@ This project investigates the application of deep learning to multivariate tempe
 
 In addition, a variational autoencoder (VAE) is trained to generate synthetic maximum-temperature sequences. Diagnostic analysis of the learned latent representation indicates that only a small subset of latent dimensions contributes substantially to the generated output. This underutilisation of the latent space explains the limited diversity and excessive smoothness observed in the synthetic sequences.
 
-All data processing, model development, evaluation, and visualisation are in [`Notebooks/temperature_forecasting.ipynb`](Notebooks/temperature_forecasting.ipynb).
+All data processing, model development, evaluation, and visualisation are in 
+[`Notebooks/temperature_forecasting.ipynb`](Notebooks/temperature_forecasting.ipynb).
 
 ## Project Objectives
 
