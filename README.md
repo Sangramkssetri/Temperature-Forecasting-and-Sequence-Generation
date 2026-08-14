@@ -4,10 +4,7 @@
     
 This project investigates the application of deep learning to multivariate temperature forecasting and generative time-series modelling. Three forecasting architectures based on gated recurrent units (GRUs) are developed to predict monthly mean minimum and maximum temperatures over multiple forecast horizons. The evaluated approaches comprise a direct multi-step forecaster, a recursive single-step forecaster, and an encoder–decoder sequence-to-sequence model. Their predictive performance is assessed using mean absolute error (MAE) on a held-out test set.
 
-In addition, a variational autoencoder (VAE) is trained to generate synthetic maximum-temperature sequences. Diagnostic analysis of the learned latent representation indicates that only a small subset of latent dimensions contributes substantially to the generated output. This underutilisation of the latent space explains the limited diversity and excessive smoothness observed in the synthetic sequences.
-
-All data processing, model development, evaluation, and visualisation are in 
-[`Notebooks/temperature_forecasting.ipynb`](Notebooks/temperature_forecasting.ipynb).
+In addition, a variational autoencoder (VAE) is trained to generate synthetic maximum-temperature sequences. Diagnostic analysis of the learned latent representation indicates that only a small subset of latent dimensions contributes substantially to the generated output. This underutilisation of the latent space explains the limited diversity and excessive smoothness observed in the synthetic sequences. All data processing, model development, evaluation, and visualisation are in: [`Notebooks/temperature_forecasting.ipynb`](Notebooks/temperature_forecasting.ipynb).
 
 ## Project Objectives
 
