@@ -1,4 +1,4 @@
-# Deep Learning for Temperature Forecasting and Sequence Generation
+# Deep Learning for time series forecasting
 
 <div align="justify">
     
